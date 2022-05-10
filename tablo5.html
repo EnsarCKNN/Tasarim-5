@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div örnek</title>
+    <style>
+        .merkez{
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid white;
+    margin: 30px auto;
+}
+.ana{
+    background-color: gainsboro;
+    width: 900px;
+    height: 700px;
+    border: 1px solid gainsboro;
+    margin: 35px auto;
+}
+.üst{
+    background-color:chartreuse;
+    width: 800px;
+    height: 100px;
+    border: 1px solid chartreuse;
+    margin: 25px auto;
+}
+.orta{
+    background-color:gainsboro;
+    width: 800px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin: 20px auto;
+}
+.alt{
+    background-color:dodgerblue;
+    width: 800px;
+    height: 100px;
+    border: 1px solid dodgerblue;
+    margin: 20px auto;
+}
+.nav{
+    background-color:gray;
+    width: 200px;
+    height: 380px;
+    border: 1px solid gray;
+    margin: 10px 5px;
+    float: left;
+}
+.sağ{
+    background-color: rgb(191, 153, 201);
+    width: 550px;
+    height: 380px;
+    border: 1px solid rgb(191, 153, 201);
+    margin: 10px 15px;
+    float: left;
+}
+.sağ1{
+    background-color:rgb(238, 236, 137);
+    width: 520px;
+    height: 150px;
+    border: 1px solid rgb(238, 236, 137);
+    margin: 10px 15px;
+    float: left; 
+}
+.sağ2{
+    background-color:rgb(238, 236, 137);
+    width: 520px;
+    height: 150px;
+    border: 1px solid rgb(238, 236, 137);
+    margin: 10px 15px;
+    float: left;
+}
+p{
+    margin:40px 350px;
+}
+.navyazı{
+    margin: 150px 80px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="merkez">
+        <div class="ana">
+            <div class="üst"><p><b>Header</b></p></div>
+            <div class="orta">
+                <div class="nav"><p class="navyazı"><b>nav<b></p></div>
+                <div class="sağ"><p style="margin: 0px 200px;"><b>section</b></p>
+                    <div class="sağ1"><p style="margin: 50px 200px;"><b>Article</b></p></div>
+                    <div class="sağ2"><p style="margin: 50px 200px;""><b>Article</b></p></div>
+                </div>
+            </div>
+            <div class="alt"><p><b>footer</b></p></div>
+
+        </div>
+    </div>
+</body>
+</html>
